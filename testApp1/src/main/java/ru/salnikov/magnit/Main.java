@@ -1,7 +1,6 @@
 package ru.salnikov.magnit;
 
 import java.io.BufferedReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.Connection;
@@ -66,7 +65,7 @@ public class Main {
 		}		
 		XMLBilder.bild(values, "1.xml");
 		XMLBilder.convent("1.xml", "2.xml", "2.xsl");
-		System.out.println("Арифметическая сумма значений всех атрибутов field: " + Sum.sumFields("2.xml"));
+		System.out.println("ГЂГ°ГЁГґГ¬ГҐГІГЁГ·ГҐГ±ГЄГ Гї Г±ГіГ¬Г¬Г  Г§Г­Г Г·ГҐГ­ГЁГ© ГўГ±ГҐГµ Г ГІГ°ГЁГЎГіГІГ®Гў field: " + Sum.sumFields("2.xml"));
 	  }
 	
 	public Main() {}
